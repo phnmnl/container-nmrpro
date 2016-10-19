@@ -55,12 +55,25 @@ Mohamed A, Nguyen CH, Mamitsuka H (2016): NMRPro: an integrated web component fo
 - Ahmed Mohamed https://eg.linkedin.com/in/amfy10
 
 ## Container Contributors
-- Kristian Peters <kpeters@ipb-halle.de>, IPB-Halle
+- [Kristian Peters](https://github.com/korseby) (IPB-Halle)
 
 ## Website
 
-http://mamitsukalab.org/tools/nmrpro/
-https://github.com/ahmohamed/nmrpro
+* http://mamitsukalab.org/tools/nmrpro/
+* https://github.com/ahmohamed/nmrpro
+
+## Installation 
+
+For local individual installation:
+
+```bash
+docker pull docker-registry.phenomenal-h2020.eu/phnmnl/nmrpro
+```
 
 ## Usage Instructions
 
+For direct docker usage:
+
+```bash
+docker run docker-registry.phenomenal-h2020.eu/phnmnl/nmrpro ...
+```
