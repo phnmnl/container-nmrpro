@@ -49,6 +49,8 @@ Plugins provide different processing functionalities for NMRSpectrum objects. Mo
 
 ## Publications
 
+Mohamed A, Nguyen CH, Mamitsuka H (2016): NMRPro: an integrated web component for interactive processing and visualization of NMR spectra. Bioinformatics 32(13):2067-8. doi:10.1093/bioinformatics/btw102
+
 ## Tool Authors 
 - Ahmed Mohamed https://eg.linkedin.com/in/amfy10
 
