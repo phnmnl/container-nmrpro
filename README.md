@@ -47,20 +47,18 @@ NMRPro package contians functions to read different file formats (NMRPipe, Bruke
 
 Plugins provide different processing functionalities for NMRSpectrum objects. Most plugin functions are dimension-agnostic, i.e they can be applied to 1D, 2D, nD NMR spectra, automatically transposing spectra. For example, FFT function will apply Fourrier transform to all dimensions, with a transponse in-between. 
 
-## Publications
-
-Mohamed A, Nguyen CH, Mamitsuka H (2016): NMRPro: an integrated web component for interactive processing and visualization of NMR spectra. Bioinformatics 32(13):2067-8. doi:10.1093/bioinformatics/btw102
-
 ## Tool Authors 
+
 - Ahmed Mohamed https://eg.linkedin.com/in/amfy10
 
 ## Container Contributors
+
 - [Kristian Peters](https://github.com/korseby) (IPB-Halle)
 
 ## Website
 
-* http://mamitsukalab.org/tools/nmrpro/
-* https://github.com/ahmohamed/nmrpro
+- http://mamitsukalab.org/tools/nmrpro/
+- https://github.com/ahmohamed/nmrpro
 
 ## Installation 
 
@@ -77,3 +75,7 @@ For direct docker usage:
 ```bash
 docker run docker-registry.phenomenal-h2020.eu/phnmnl/nmrpro ...
 ```
+
+## Publications
+
+- Mohamed A, Nguyen CH, Mamitsuka H (2016): NMRPro: an integrated web component for interactive processing and visualization of NMR spectra. Bioinformatics 32(13):2067-8. doi:10.1093/bioinformatics/btw102
