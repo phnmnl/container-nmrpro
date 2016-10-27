@@ -2,7 +2,7 @@
 
 ## Short description
 
-NMRPro, an open-source easy-to-integrate web component for processing and visualization of NMR data that is highly extensible to include new functionalities according to the needs of each application.
+Open-source web component for processing and visualization of NMR data that is highly extensible to include new functionalities according to demand of applications.
 
 ## Description
 
