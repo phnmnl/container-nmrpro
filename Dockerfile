@@ -1,13 +1,14 @@
+FROM container-registry.phenomenal-h2020.eu/phnmnl/nmrglue
+
 LABEL software=metfrag-cli
 LABEL software.version=0.2.7
 LABEL version=0.1
+
 LABEL Description="NMRPro reads and processes different types of NMR spectra."
 
 MAINTAINER PhenoMeNal-H2020 Project <phenomenal-h2020-users@googlegroups.com>
 
 
-
-FROM docker-registry.phenomenal-h2020.eu/phnmnl/nmrglue
 
 # Install NMRPRo
 RUN pip install nmrpro
