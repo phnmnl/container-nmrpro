@@ -1,6 +1,6 @@
 FROM container-registry.phenomenal-h2020.eu/phnmnl/nmrglue
 
-LABEL software=metfrag-cli
+LABEL software=nmrpro
 LABEL software.version=0.2.7
 LABEL version=0.1
 
@@ -17,6 +17,6 @@ RUN pip install nmrpro
 WORKDIR /data
 
 # Dummy
-ENTRYPOINT [ "/bin/sh" ]
+#ENTRYPOINT [ "/bin/sh" ]
 
 
